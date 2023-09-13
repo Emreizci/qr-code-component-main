@@ -1,0 +1,73 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ body {
+  font-family: 'Outfit', sans-serif;
+  
+}
+
+:root {
+  --erzurumçarşıpazar:hsl(212, 45%, 89%);
+  --ei:14px;
+  --gözgöz:100vh;
+  --White: hsl(0, 0%, 100%);
+  --Lightgray: hsl(212, 45%, 89%);
+  --Grayishblue: hsl(220, 15%, 55%);
+  --Darkblue: hsl(218, 44%, 22%);
+}
+
+main {
+  height: var(--gözgöz);
+  background-color: var(--erzurumçarşıpazar);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  width: 280px;
+  background-color: var(--White);
+  padding: 10px 18px;
+  border-radius: 10px;
+}
+
+.card-image {
+  text-align: center;
+  height: 200px;
+  margin-top: 10px;
+  
+}
+
+.card-image img {
+  width: 240px;
+  border-radius: 10px;
+  
+}
+
+.card-info {
+  margin: 50px  auto 0;
+  
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+.card-t {
+  text-align: center;
+  margin: 10px auto;
+  font-size: var(--ei);
+  line-height: 1.2;
+  color: hsla(210, 1%, 35%, 0.7);
+
+}
+
+
+
+
